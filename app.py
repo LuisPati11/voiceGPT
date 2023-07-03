@@ -13,7 +13,7 @@ with sr.Microphone() as source:
     except Exception as e:
         print(e)
 
-openai.api_key = "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"
+openai.api_key = ""
 
 completion = openai.Completion.create(engine="text-davinci-003",
                          prompt=answer,
